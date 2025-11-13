@@ -4,18 +4,21 @@
     <style>
         body {
             background: #AEAEAE;
+            margin: 0;
+            padding: 0;
         }
         video {
-                    width: 80%;
-                    height: auto;
-                    
-                    border: none;
-                    outline: none;
-                }
+            width: 80%;
+            height: auto;
+            border: none;
+            outline: none;
+            display: block;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
-    <video controls autoplay loop muted>
+    <video autoplay loop muted playsinline>
         <source src="main comp_1.mov" type="video/quicktime">
         Ваш браузер не поддерживает видео с прозрачностью
     </video>
